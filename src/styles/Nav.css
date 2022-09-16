@@ -23,5 +23,7 @@
 }
 .main{
     background: url("farmers.jpg");
+    background-size: cover;
+    opacity: 0.8;
     color: white;
 }
