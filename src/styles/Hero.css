@@ -1,0 +1,9 @@
+.Hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+} 
+.Hero p{
+    width: 50vw;
+}

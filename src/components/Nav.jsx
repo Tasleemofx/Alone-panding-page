@@ -1,6 +1,8 @@
+import React from "react";
+import "../styles/Nav.css"
 const Nav=()=>{
     return (
-      <nav>
+      <nav className="navbar">
         <h1>ALONE</h1>
         <ul>
           <li className="nav-item">Farmers</li>

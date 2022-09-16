@@ -1,0 +1,27 @@
+.navbar{
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.navbar h1{
+    font-family: Cursive;
+}
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+.navbar ul li{
+    padding: 1em;
+}
+.navbar button{
+    padding: 1em;
+    border-radius: 20px;
+}
+.main{
+    background: url("farmers.jpg");
+    color: white;
+}
