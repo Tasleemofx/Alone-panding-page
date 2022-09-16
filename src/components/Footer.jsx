@@ -1,7 +1,8 @@
 import React from "react";
+import "../styles/footer.css"
 const Footer=()=>{
     return (
-      <footer className="footer-grid">
+      <footer className="footer">
         <div className="flex-dc">
           <h5>Quick Links</h5>
           <a href=".">Get Involved</a>

@@ -1,8 +1,8 @@
 import React from "react"
 
-const Card=({para})=>{
+const Card=({item,para})=>{
     <div className="card">
-        <img/>
+        {item}
         <p>{para}</p>
     </div>
 }

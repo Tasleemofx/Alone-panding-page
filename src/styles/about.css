@@ -1,0 +1,23 @@
+.about{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.img-border{
+    border: black 5px solid;
+    border-radius: 15px;
+    margin: 3em;
+    width: 30vw;
+    height: 40vh;
+}
+.img-border img{
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    width: 30vw;
+    height: 40vh;
+}
+
+.img-border img:hover{
+    transform: scale(1.3)
+}
