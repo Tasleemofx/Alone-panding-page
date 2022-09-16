@@ -1,10 +1,10 @@
 import React from "react"
-
-const Card=({item,para})=>{
-    <div className="card">
+import "../styles/card.css"
+const Card=({card, item,para})=>{
+    return(<div className={card}>
         {item}
         <p>{para}</p>
-    </div>
+    </div>)
 }
 
 export default Card

@@ -16,10 +16,11 @@ function App() {
         <Nav />
         <Hero />
       </div>
-      { datalist.map(({id, greenText, Topic, img, paraText})=>{
+      { datalist.map(({id, about, greenText, Topic, img, paraText})=>{
           return(
             <div key={id}>
               <About
+              about={about}
               greenText={greenText}
               Topic={Topic}
               img={img}

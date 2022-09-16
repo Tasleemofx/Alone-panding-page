@@ -20,10 +20,20 @@
 .navbar button{
     padding: 1em;
     border-radius: 20px;
+    animation: dropin 2s 3s ease-in;
+}
+@keyframes dropin{
+    from{
+        opacity: 0
+    }
+    to{
+        opacity: 0.8
+    }
 }
 .main{
     background: url("farmers.jpg");
     background-size: cover;
     opacity: 0.8;
     color: white;
+    animation: dropin 0.5s 0.5s ease-in;
 }

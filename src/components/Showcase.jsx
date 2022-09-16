@@ -1,7 +1,12 @@
 import React from "react";
 import Card from "./Card"
 import "../styles/showcase.css"
-import { FaRegMoneyBillAlt } from "react-icons/fa"
+import {
+  FaRegMoneyBillAlt,
+  FaFeather,
+  FaHandHoldingMedical,
+} from "react-icons/fa";
+
 const Showcase=()=>{
     return (
         <div className="showcase">
@@ -9,10 +14,13 @@ const Showcase=()=>{
             <h3>
                 Keep track of products and process orders
             </h3>
-            <Card item={<FaRegMoneyBillAlt/>}
+            <img src="./images/high.png" alt="background" />
+            <Card card="card1" item={<FaRegMoneyBillAlt/>} 
             para={"Emerald investment requested 3 bags of rice"}/>
-            <Card para={"You processed 21bags of beans today"}/>
-            <Card para={"You have recieved a payment from mavi ltd"}/>
+            <Card card="card2" item={ <FaFeather/> }
+            para={"You processed 21bags of beans today"}/>
+            <Card card="card3" item={<FaHandHoldingMedical/>}
+            para={"You have recieved a payment from mavi ltd"}/>
             
         </div>
     )

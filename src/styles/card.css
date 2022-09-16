@@ -1,0 +1,14 @@
+.card1, .card2, .card3{
+    background: white;
+    width: max-content;
+    padding: 0.2em;
+
+}
+
+.card1{
+    margin: 0 auto;
+}
+.card2{
+    display: flex;
+    align-self: center;
+}
