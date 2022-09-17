@@ -2,10 +2,18 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr)
 }
-
+.footer a{
+    text-decoration: none;
+    color: black;
+}
+.flex-dc a:active{
+    color: black;
+    padding: 1em;
+}
 .flex-dc{
     display: flex;
     flex-direction: column;
+    margin: 1em;
 }
 .icons{
     display: flex;

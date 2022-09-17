@@ -1,14 +1,22 @@
 .card1, .card2, .card3{
-    background: white;
+    background: rgb(166,164,159);
+    font-weight: bolder;
     width: max-content;
     padding: 0.2em;
-
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
 }
 
 .card1{
     margin: 0 auto;
+    grid-area: card1
 }
 .card2{
-    display: flex;
-    align-self: center;
+    grid-area: card2
+}
+.card3{
+    grid-area: card3
 }
