@@ -1,9 +1,8 @@
 import React from "react";
 import "../styles/Nav.css"
 const Nav=()=>{
-    return (
-      <nav className="navbar">
-        <h1>ALONE</h1>
+    return (<nav className="navbar">
+        <img src="./images/alone-logo.png" alt="logo" className="logo" />
         <ul>
           <li className="nav-item">Farmers</li>
           <li className="nav-item">Factories</li>

@@ -5,7 +5,10 @@
     justify-content: space-between;
     padding: 1em;
 }
-
+.logo{
+    width: 5em;
+    height: 2em;
+}
 .navbar h1{
     font-family: Cursive;
 }
@@ -14,8 +17,12 @@
     list-style-type: none;
     align-items: center;
 }
-.navbar ul li{
+.nav-item{
     padding: 1em;
+    cursor: pointer;
+}
+.nav-item:hover{
+    border: darkgreen 1px solid;
 }
 .navbar button{
     padding: 1em;
