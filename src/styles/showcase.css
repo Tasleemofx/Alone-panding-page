@@ -1,9 +1,7 @@
 .showcase{
     background: lightpink;
 }
-/* .show-grid{
-    display: grid;
-    grid-template-areas: "card1" 
-                "card2"
-                 "card3"
-} */
+.show-grid{
+    display: flex;
+    flex-direction: column;
+}

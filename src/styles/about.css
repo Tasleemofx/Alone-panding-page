@@ -23,7 +23,7 @@
 }
 
 .img-border img:hover{
-    transform: translateY(5px) translateX(5px);
+    transform: translate(5px,5px);
 }
 .text{
     width: 30vw;

@@ -2,21 +2,32 @@
     background: rgb(166,164,159);
     font-weight: bolder;
     width: max-content;
-    padding: 0.2em;
+    padding: 1em;
     border-radius: 15px;
     display: flex;
     align-items: center;
+    gap: 20px;
     justify-content: space-around;
     flex-direction: row;
 }
 
 .card1{
     margin: 0 auto;
-    grid-area: card1
+    
+}
+.card1:hover{
+    transform: scale(0.8)
 }
 .card2{
-    grid-area: card2
+    transform: translate( 50em, -30em)    
+}
+.card2:hover{
+    transform: translate(50em, -30em) scale(0.8)
 }
 .card3{
-    grid-area: card3
+    transform: translate(10em, -35em)
+}
+
+.card3:hover {
+    transform: translate(10em, -35em) scale(0.8)
 }
