@@ -1,9 +1,11 @@
 .navbar{
-    background: transparent;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 1em;
+    z-index: 1;
+    position: absolute;
+    top: 0;
 }
 .logo{
     width: 5em;
@@ -16,7 +18,12 @@
     display: flex;
     list-style-type: none;
     align-items: center;
+    justify-content: space-between;
+    position: relative;
+    top: 0;
+    left: 30%;
 }
+
 .nav-item{
     padding: 1em;
     cursor: pointer;
@@ -27,20 +34,25 @@
 .navbar button{
     padding: 1em;
     border-radius: 20px;
-    animation: dropin 2s 3s ease-in;
+    position: relative;
+    top: 0;
+    left: 80%;
+    animation: dropin 2s 0s;
 }
 @keyframes dropin{
     from{
-        margin: -100%
+        margin-top: -100%
     }
     to{
         margin: 0;
     }
 }
 .main{
-    background: url("farmers.jpg");
-    background-size: cover;
-    opacity: 0.8;
     color: white;
-    animation: dropin 0.5s ease-in 0s;
+    animation: dropin 0.5s 0s;
+}
+.farmer{
+    width: 100vw;
+    height: 110vh;
+    filter: brightness(66%) contrast(105%) saturate(100%) blur(2.1px) hue-rotate(0deg);
 }

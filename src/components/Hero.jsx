@@ -3,9 +3,9 @@ import "../styles/Hero.css"
 const Hero=()=>{
     return (
       <div className="Hero">
-        <div className="flex-ai-jc">
+          <img src="./images/farmers.jpg" alt="farmer" className="farmer"/>
             <div className="major">
-                <h2>Earn Income</h2>
+                <h2>Earn Income,</h2>
                 <h2>Empower Farmers.</h2>
                 
             
@@ -15,7 +15,7 @@ const Hero=()=>{
           the most profitable aspects of palm production & financing increased
           to local processing capacity.
         </p>
-        </div>
+        
         </div>
       </div>
     );

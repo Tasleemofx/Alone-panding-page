@@ -1,7 +1,20 @@
 .showcase{
-    background: lightpink;
+    background:  rgb(234, 180, 218) url("./images/high.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    padding: 0.5em;
+}
+.show-top{
+    color: rgb(157, 157, 35);
+}
+.show-text{
+    font-size: 2em;
+    font-weight: 800;
 }
 .show-grid{
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
 }

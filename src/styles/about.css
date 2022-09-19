@@ -12,18 +12,18 @@
     border-radius: 15px;
     margin: 3em;
     width: 30vw;
-    height: 40vh;
+    height: 60vh;
 }
 .img-border img{
-    margin-top: 10px;
-    margin-left: 10px;
+    margin-top: 15px;
+    margin-left: 15px;
     border-radius: 10px;
     width: 30vw;
-    height: 40vh;
+    height: 60vh;
 }
 
 .img-border img:hover{
-    transform: translate(5px,5px);
+    transform: translateY(10px);
 }
 .text{
     width: 30vw;

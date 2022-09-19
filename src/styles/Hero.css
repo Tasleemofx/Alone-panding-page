@@ -2,8 +2,20 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 80vh;
+    height: 110vh;
+        
 } 
 .Hero p{
     width: 50vw;
+    font-weight: bolder;
+    
+}
+.major{
+    position: absolute;
+    top: 20%;
+    left: 25%;
+}
+.major h2{
+font-size: 3em;
+font-weight: bolder;
 }

@@ -9,7 +9,7 @@ const Footer=()=>{
     return (
       <footer className="footer">
         <div className="flex-dc">
-          <img src="./images/footer-logo.png" alt="logo" className="logo" />
+          <img src="./images/footer-logo.png" alt="logo" className="f-logo" />
           <p>
             Duis aute irure dolor in repreh enderit in voluptate velit esse
             cillum dolore eu fugiat nulla pariatur. Excepteur sint occae cat
